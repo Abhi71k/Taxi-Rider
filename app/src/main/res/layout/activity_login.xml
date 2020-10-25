@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.heven.taxicabondemandtaxi.activity.LoginActivity"
+    tools:context="com.colours.cabs.activity.LoginActivity"
     android:orientation="vertical"
     android:gravity="center"
     android:background="@color/colorWhite">
@@ -22,7 +22,7 @@
             android:textColor="@color/colorLogoBlack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/enter_nyour_information" />
+            android:text="Login to your account" />
     </LinearLayout>
 
     <LinearLayout
@@ -102,7 +102,7 @@
                 android:layout_gravity="center"
                 android:background="@drawable/custom_button"
                 android:text="@string/log_in"
-                android:textColor="@color/colorLogoBlack"
+                android:textColor="@color/white"
                 android:layout_above="@+id/creer_compte"/>
 
             <TextView
@@ -120,6 +120,7 @@
                 android:text="@string/create_customer_account" />
 
             <TextView
+                android:visibility="gone"
                 android:textStyle="normal"
                 android:gravity="center"
                 android:layout_marginBottom="0dp"

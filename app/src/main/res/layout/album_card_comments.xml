@@ -31,7 +31,7 @@
             android:paddingBottom="10dp"
             android:id="@+id/linear">
 
-            <com.heven.taxicabondemandtaxi.circleimage.CircleImageView
+            <com.colours.cabs.circleimage.CircleImageView
                 app:civ_border_color="@color/white"
                 app:civ_border_width="2dp"
                 android:id="@+id/user_photo"

@@ -68,7 +68,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:textSize="15sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
                         android:background="?android:selectableItemBackground"
                         android:clickable="true"
                         android:focusable="true"

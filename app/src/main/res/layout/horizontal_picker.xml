@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.heven.taxicabondemandtaxi.datepicker.HorizontalPickerRecyclerView
+        <com.colours.cabs.datepicker.HorizontalPickerRecyclerView
             android:id="@+id/rvDays"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>

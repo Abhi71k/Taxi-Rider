@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.heven.taxicabondemandtaxi.fragment.FragmentProfile"
+    tools:context="com.colours.cabs.fragment.FragmentProfile"
     android:orientation="vertical"
     android:background="@color/colorWhite">
 
@@ -31,7 +31,7 @@
                 android:layout_width="175dp"
                 android:layout_height="match_parent">
 
-                <com.heven.taxicabondemandtaxi.circleimage.CircleImageView
+                <com.colours.cabs.circleimage.CircleImageView
                     android:id="@+id/user_photo"
                     app:civ_border_width="2dp"
                     app:civ_border_color="@color/colorPrimary"

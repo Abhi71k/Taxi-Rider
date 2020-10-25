@@ -44,7 +44,7 @@
                 android:paddingLeft="7dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginLeft="25dp"
-                android:textColor="@color/colorLogoBlack"
+                android:textColor="@color/white"
                 android:gravity="center"
                 android:id="@+id/close"
                 android:layout_width="match_parent"

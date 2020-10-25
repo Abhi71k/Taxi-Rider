@@ -311,7 +311,7 @@
                             android:gravity="center"
                             android:layout_gravity="center"
                             android:textSize="12sp"
-                            android:textColor="@color/colorLogoBlack"
+                            android:textColor="@color/white"
                             android:paddingLeft="5dp"
                             android:paddingTop="2dp"
                             android:paddingBottom="3dp"
@@ -569,7 +569,7 @@
                         android:gravity="center"
                         android:layout_gravity="bottom"
                         android:textSize="12sp"
-                        android:textColor="@color/colorLogoBlack"
+                        android:textColor="@color/white"
                         android:paddingLeft="5dp"
                         android:paddingBottom="1dp"
                         android:paddingRight="5dp"
@@ -619,7 +619,7 @@
                         android:gravity="center"
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
-                        android:textColor="@color/colorLogoBlack"
+                        android:textColor="@color/white"
                         android:background="@drawable/custom_button"
                         android:layout_alignParentLeft="true"
                         android:id="@+id/view_map"
@@ -667,12 +667,12 @@
                             android:gravity="center"
                             android:paddingLeft="10dp"
                             android:paddingRight="10dp"
-                            android:textColor="@color/colorLogoBlack"
+                            android:textColor="@color/white"
                             android:background="@drawable/custom_button"
                             android:id="@+id/start_ride"
                             android:layout_width="wrap_content"
                             android:layout_height="30dp"
-                            android:text="START RIDE" />
+                            android:text="Directions" />
                     </RelativeLayout>
 
                     <TextView
@@ -695,7 +695,7 @@
                         android:gravity="center"
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
-                        android:textColor="@color/colorLogoBlack"
+                        android:textColor="@color/white"
                         android:background="@drawable/custom_button"
                         android:layout_alignParentRight="true"
                         android:id="@+id/complet_ride"

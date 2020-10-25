@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.heven.taxicabondemandtaxi.activity.SubscribeActivity"
+    tools:context="com.colours.cabs.activity.SubscribeActivity"
     android:orientation="vertical"
     android:gravity="center"
     android:background="@color/colorWhite">
@@ -22,7 +22,7 @@
             android:textColor="@color/colorLogoBlack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/enter_nyour_information" />
+            android:text="Let's get started" />
     </LinearLayout>
 
     <LinearLayout
@@ -145,7 +145,7 @@
                 android:layout_gravity="center"
                 android:background="@drawable/custom_button"
                 android:text="@string/send"
-                android:textColor="@color/colorLogoBlack"
+                android:textColor="@color/white"
                 android:layout_above="@+id/creer_compte"/>
 
             <TextView

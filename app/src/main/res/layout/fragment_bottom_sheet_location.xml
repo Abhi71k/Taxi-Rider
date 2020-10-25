@@ -188,7 +188,7 @@
             android:layout_gravity="center"
             android:background="@drawable/custom_button"
             android:text="@string/envoyer"
-            android:textColor="@color/colorLogoBlack"
+            android:textColor="@color/white"
             android:layout_above="@+id/creer_compte"/>
 
         <TextView

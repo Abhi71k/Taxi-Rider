@@ -1,100 +1,42 @@
 {
   "project_info": {
-    "project_number": "434633574150",
-    "firebase_url": "https://taxi-jaune-burki-1570095513192.firebaseio.com",
-    "project_id": "taxi-jaune-burki-1570095513192",
-    "storage_bucket": "taxi-jaune-burki-1570095513192.appspot.com"
+    "project_number": "986454196841",
+    "firebase_url": "https://taxiapp-6b0e2.firebaseio.com",
+    "project_id": "taxiapp-6b0e2",
+    "storage_bucket": "taxiapp-6b0e2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:434633574150:android:354d7d10b524e8443b0087",
+        "mobilesdk_app_id": "1:986454196841:android:867d27ae60f88e9b3f98f8",
         "android_client_info": {
-          "package_name": "com.heven.taxicabondemandtaxi"
+          "package_name": "com.colours.cabs"
         }
       },
       "oauth_client": [
         {
-          "client_id": "434633574150-76bsa46iv0m9qch5cn6m2mj7aet1hj3t.apps.googleusercontent.com",
+          "client_id": "986454196841-2q2er0t706e51i2ned8k2a2dv897e087.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.heven.taxicabondemandtaxi",
-            "certificate_hash": "ab2f94097d801733e6382e4e77a990b2387a01f8"
+            "package_name": "com.colours.cabs",
+            "certificate_hash": "c6b8f5f7c36f7cbb04c0e63163c153199a425a58"
           }
         },
         {
-          "client_id": "434633574150-n9vaig1ris4lohcuo5fpes04ev3ovpcn.apps.googleusercontent.com",
+          "client_id": "986454196841-087odj4c51foqet0uqcfs7ct44jsa8o8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDGyqkSKGMEjL5cUzd3z6oyKGrPOiSNkdo"
+          "current_key": "AIzaSyAy5TSYeA8t69nZaAEpvWsh599a7WCpbso"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "434633574150-n9vaig1ris4lohcuo5fpes04ev3ovpcn.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:434633574150:android:422d8996d731f20c3b0087",
-        "android_client_info": {
-          "package_name": "com.heven.vehiclerental"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "434633574150-n9vaig1ris4lohcuo5fpes04ev3ovpcn.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDGyqkSKGMEjL5cUzd3z6oyKGrPOiSNkdo"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "434633574150-n9vaig1ris4lohcuo5fpes04ev3ovpcn.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:434633574150:android:8e79ce3ab63a5c513b0087",
-        "android_client_info": {
-          "package_name": "com.projets.bf.taxijaune"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "434633574150-n9vaig1ris4lohcuo5fpes04ev3ovpcn.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDGyqkSKGMEjL5cUzd3z6oyKGrPOiSNkdo"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "434633574150-n9vaig1ris4lohcuo5fpes04ev3ovpcn.apps.googleusercontent.com",
+              "client_id": "986454196841-087odj4c51foqet0uqcfs7ct44jsa8o8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

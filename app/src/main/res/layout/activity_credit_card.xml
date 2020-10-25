@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.heven.taxicabondemandtaxi.activity.CreditCard"
+    tools:context="com.colours.cabs.activity.CreditCard"
     android:paddingTop="15dp"
     android:gravity="center">
 

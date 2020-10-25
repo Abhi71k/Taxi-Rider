@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.heven.taxicabondemandtaxi">
+    package="com.colours.cabs">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
-        android:name="com.heven.taxicabondemandtaxi.controller.AppController"
+        android:name="com.colours.cabs.controller.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,14 +19,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.heven.taxicabondemandtaxi.activity.CreditCard"
+        <activity android:name="com.colours.cabs.activity.CreditCard"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity
-            android:name="com.heven.taxicabondemandtaxi.activity.DriverVehicleActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -52,14 +48,14 @@
             android:name="org.apache.http.legacy"
             android:required="false" /> <!-- <uses-library android:name="org.apache.http.legacy" android:required="false" /> -->
         <service
-            android:name="com.heven.taxicabondemandtaxi.firebase.MyFirebaseMessagingService"
+            android:name="com.colours.cabs.firebase.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name="com.heven.taxicabondemandtaxi.firebase.MyFirebaseInstanceIdService"
+            android:name="com.colours.cabs.firebase.MyFirebaseInstanceIdService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
@@ -76,35 +72,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.heven.taxicabondemandtaxi.activity.ChooseNIActivity"
+            android:name="com.colours.cabs.activity.SubscribeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.heven.taxicabondemandtaxi.activity.ChooseLicenceActivity"
+            android:name="com.colours.cabs.activity.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.heven.taxicabondemandtaxi.activity.ChoosePhotoActivity"
+            android:name="com.colours.cabs.activity.IntroActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.heven.taxicabondemandtaxi.activity.SubscribeActivity"
+            android:name="com.colours.cabs.activity.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.heven.taxicabondemandtaxi.activity.LoginActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.heven.taxicabondemandtaxi.activity.IntroActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.heven.taxicabondemandtaxi.activity.MainActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.heven.taxicabondemandtaxi.activity.SplashActivity"
+            android:name="com.colours.cabs.activity.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

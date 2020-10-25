@@ -206,7 +206,7 @@
             android:layout_height="30dp"
             android:background="@drawable/custom_button"
             android:text="@string/book_now"
-            android:textColor="@color/colorLogoBlack"/>
+            android:textColor="@color/white"/>
 
         <View
             android:visibility="visible"

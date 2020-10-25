@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <com.heven.taxicabondemandtaxi.circleimage.CircleImageView
+            <com.colours.cabs.circleimage.CircleImageView
                 card_view:civ_border_color="@color/colorPrimary"
                 card_view:civ_border_width="2dp"
                 android:src="@drawable/user_profile"
@@ -36,7 +36,7 @@
                 android:paddingBottom="3dp"
                 android:paddingTop="3dp"/>
 
-            <com.heven.taxicabondemandtaxi.circleimage.CircleImageView
+            <com.colours.cabs.circleimage.CircleImageView
                 android:src="@drawable/ic_statut_on"
                 android:id="@+id/online"
                 android:layout_width="13dp"
